@@ -1,6 +1,6 @@
 baseURL: "https://arkalim.org"
 languageCode: en-us
-title: Abdur Rahman
+title: William Ranci Ortigosa
 theme: PaperMod
 
 menu:
@@ -9,10 +9,10 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
-      weight: 20
+    # - identifier: blog
+    #   name: Blog
+    #   url: /blog
+    #  weight: 20
     - identifier: projects
       name: Projects
       url: /projects
@@ -25,13 +25,13 @@ menu:
       name: Search
       url: /search
       weight: 50
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60
+    - identifier: tags
+      name: Tags
+      url: /tags
+      weight: 60
     # - identifier: notes
     #   name: Notes
-    #   url: https://notes.arkalim.org
+    #   url: 
     #   weight: 70
 
 params:
@@ -48,8 +48,8 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: "Hi 👋, I'm Abdur, an [**MSc in Applied Computing**](https://mscac.utoronto.ca/) student at the **University of Toronto**. I'm passionate about **Backend**, **Cloud** and **DevOps**, and I'm also an AWS Certified Solutions Architect. Along with my grad studies, I've been working as a **DevOps Intern** at [**16Bit.ai**](https://www.16bit.ai), a MedTech startup based in Toronto 🇨🇦. Before joining the MScAC program, I worked as a **Backend Engineer** at [**BuyerAssist.io**](https://buyerassist.io/), a B2B SaaS startup based in India 🇮🇳. When I'm free, I make YouTube 🎬 videos on career, higher education & productivity"
+    title: "William Ranci Ortigosa"
+    subtitle: "Hi 👋, I'm William, a current [**Software Engineer Apprentice**](https://www.ibm.com/impact/feature/apprenticeship) at [**IBM**](https://www.ibm.com/us-en?ar=1). I'm a recent dual-enrolled graduate of [**P-Tech Norwalk**](https://ptech.norwalkps.org/) &  [**Norwalk Community College**](https://norwalk.edu/) where I earned an Associate's in Software Engineering and a High School Diploma in the same year. I'm passionate about [**Freelancing**](https://www.upwork.com/), specifically **Ecommerce Web Development**. I'm currently part of the [**Freemote Bootcamp**](https://www.freemote.com/?utm_platform=google&utm_source=12923445580&gc_id=12923445580&h_ad_id=518479656654&gclid=EAIaIQobChMI6fCkkerq_QIVVG1vBB19cgYbEAAYASAAEgKzIfD_BwE) to help me pursue these passions. "
     imageUrl: "home/me.jpg"
     imageWidth: 220
     imageHeight: 220
@@ -66,16 +66,16 @@ params:
     hiddenInSingle: false # hide on single page
 
   socialIcons:
-    - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+    # - name: "email"
+    #   url: "mailto:"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/william-ranci-ortigosa-4b51941ba"
     - name: "github"
-      url: "https://github.com/arkalim"
+      url: "https://github.com/William-Ranci-Ortigosa"
     - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
-    - name: "cv"
-      url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+      url: "https://www.youtube.com/@williamRanci"
+    # - name: "cv"
+    # url: ""
 
   # text search
   fuseOpts:
